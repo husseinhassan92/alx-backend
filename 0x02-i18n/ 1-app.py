@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-'''Task 0: Basic Flask app
+'''Task 1: Basic Flask app
 '''
 
 from flask import Flask, render_template
@@ -8,8 +8,7 @@ from flask_babel import Babel
 
 class Config:
     '''Config class'''
-
-    LANGUAGES = ["en", "fr"]
+    BABEL_LANGUAGES = ["en", "fr"]
     BABEL_DEFAULT_LOCALE = "en"
     BABEL_DEFAULT_TIMEZONE = "UTC"
 
